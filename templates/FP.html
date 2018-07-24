@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title> Form for Code For Palestine  </title>
+	<link rel="stylesheet" type = "text/css" href = "../Desktop/FP.css">
+</head>
+<body>
+
+	{% extends "home.html" %}
+	{% block body %}
+
+
+
+		<form action= "/submit" method = "POST">
+			<div>
+
+
+				<label> First name</label>
+				<input type = "text" name= "FirstName" placeholder = "Enter your name">
+			</div>
+			<br>
+			<div>
+				<label> Last name</label>
+				<input type = "text" name= "LastName" placeholder = "Enter your name">
+			</div>
+			<br>
+			<div>
+
+				<label> Password </label>
+				<input type = "password" name= "password" placeholder = "Enter your password">
+			</div>
+			<br>
+			<div>
+				<label> Email </label>
+				<input type = "email" name= "email" placeholder = "Enter your email">
+        	</div>
+        	<br>
+
+			<div>
+				<label> Message </label>
+				<textarea name = "message" placeholder = "Write yourmessage"> </textarea>
+			</div>
+			<br>
+			<div> 
+				<label> Gender </label>
+				<select name = "gender">
+				<option value = "Male">male </option>
+				<option values = "emale"> female </option>
+				</select>
+			</div>
+			<br>
+			<div>
+
+				<label> age</label>
+				<input type = "number" name = "Age" value = "20">
+
+			</div>
+			<br>
+			<div>
+				<label> Birthday</label>
+				<input type= "date" name = "birthday">
+			</div>
+			<br>
+			<div>
+				<input type = "submit" name= "submit" value="This is a submit button">
+			</div>
+			<br>
+
+		</form>
+	{% endblock %}
+
+
+</body>
+</html>

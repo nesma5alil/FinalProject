@@ -1,0 +1,41 @@
+body{
+	background-image: url("/home/wecode/FinalProject/static/wallpaper2you_357988.jpg");
+	background-size: 1500px;
+	
+	
+}
+#main-header{
+	color:white;
+	text-align:center;
+	background-color:lightgreen;
+	font-size: 27px;
+	
+
+}
+
+#navBar{
+	background-color:lightgreen;
+
+
+}
+
+#navBar ul{
+	list-style: none;
+	
+}
+
+#navBar li{
+	display:inline;
+	margin-right: 50;
+	
+}
+#navBar a{
+	text-decoration: none;
+	font-size: 20px;
+	color:white;
+	
+}
+#navBar a:hover{
+	color:green;
+	background-color: white;
+}
